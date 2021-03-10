@@ -20,6 +20,7 @@ for i in range(8):
     rightImg.append(pygame.image.load("assets/player/rechts" + str(i + 1) + ".png"))
     leftImg.append(pygame.image.load("assets/player/links" + str(i + 1) + ".png"))
 
+
 #sound load
 jumpSound = pygame.mixer.Sound("assets/sound/sprung.wav")
 
